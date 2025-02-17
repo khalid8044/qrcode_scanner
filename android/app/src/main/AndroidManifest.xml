@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
     <application
         android:label="Toll Calculator"
         android:name="${applicationName}"
@@ -29,7 +35,7 @@
           
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
                <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyBM7OEX3gwpKld5ipoqyuEWH4Y6e9hyrGE"/>
+               android:value="AIzaSyAt4PR9tC_6KQuaFmmSKlvTsBs_TxBv78c"/>
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
